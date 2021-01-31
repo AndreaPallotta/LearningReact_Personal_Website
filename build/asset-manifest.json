@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.313b1282.chunk.css",
+    "main.js": "/static/js/main.ba14d3c1.chunk.js",
+    "main.js.map": "/static/js/main.ba14d3c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.47dafc03.chunk.js": "/static/js/2.47dafc03.chunk.js",
+    "static/js/2.47dafc03.chunk.js.map": "/static/js/2.47dafc03.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eed598756f5520c41505ee6c49b9e0e4.js": "/precache-manifest.eed598756f5520c41505ee6c49b9e0e4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.313b1282.chunk.css.map": "/static/css/main.313b1282.chunk.css.map",
+    "static/js/2.47dafc03.chunk.js.LICENSE.txt": "/static/js/2.47dafc03.chunk.js.LICENSE.txt",
+    "static/media/pallotta_resume.pdf": "/static/media/pallotta_resume.401777f9.pdf",
+    "static/media/selfPicture.png": "/static/media/selfPicture.2744e8cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3374ac37.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.47dafc03.chunk.js",
+    "static/css/main.313b1282.chunk.css",
+    "static/js/main.ba14d3c1.chunk.js"
+  ]
+}

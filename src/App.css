@@ -1,0 +1,11 @@
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+#navigation_items {
+    background-color: darkgray;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid black;
+    list-style-type: none;
+}

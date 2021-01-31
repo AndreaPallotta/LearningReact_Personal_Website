@@ -1,0 +1,185 @@
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+
+/* NAVIGATION */
+.navigation {
+    background-color: #727e94;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid gray;
+    list-style-type: none;
+    width: min-content;
+    margin: 0;
+    padding: 15px 0 15px 0;
+    position: absolute;
+    right: 25px;
+}
+
+#nav_items {
+    top: 40%;
+}
+
+
+.navigation > li {
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT */
+#main_content {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    background-color: #727e94;
+    min-height: 80vh;
+    margin: 8vh auto;
+    padding: 0;
+    border-radius: 30px;
+    
+}
+
+#main_content, .navigation {
+    -webkit-box-shadow: 5px 10px 19px 1px rgba(87,84,87,1);
+    -moz-box-shadow: 5px 10px 19px 1px rgba(87,84,87,1);
+    box-shadow: 5px 10px 19px 1px rgba(87,84,87,1);
+}
+
+#picture_container {
+    float: left;
+    width: 30%;
+    height: 100%;
+    min-height: inherit;
+    max-height: 80vh;
+    text-align: center;
+    overflow: auto;
+    max-width: 330px;
+
+}
+
+#content_container {
+    width: 85%;
+    background-color: #2c4269;
+    border-radius: inherit;
+}
+
+#selfPicture {
+    margin-left: 2em;
+    margin-top: 2em;
+    width: 80%;
+    border-radius: 30px;
+    border: 2px solid darkgray;
+}
+
+.card-text {
+   color: white; 
+}
+
+.contentDivs {
+    color: white;
+}
+
+.hiddenDivs {
+    display: none;
+}
+
+.card-icons:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-icon:hover {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.card-icons:hover, .nav-icon:hover, .active-nav {
+    filter: drop-shadow(0.5px 0.5px 0px #111) 
+    drop-shadow(-1px 0.5px 0px #111) 
+    drop-shadow(0.5px -0.5px 0px #111) 
+    drop-shadow(-1px -1px 0px #111);
+}
+
+.active-nav {
+    color: red;
+}
+
+#work-title, #homepage-title-personal, #homepage-title-coop, #aboutme-techical-title, #aboutme-social-title, #education-title, #education-achievement-title  {
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+}
+
+#carousel-work {
+    border-radius: 15px;
+    margin-top: 3%;
+    border: 1px solid orange;
+    flex: 0 1 auto;
+}
+
+.description {
+    height: 100%;
+    background-color: white;
+    margin-top: 3%;
+    flex: 1 1 50px;
+    border-radius: 15px;
+    padding-top: 1em;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid orange;
+}
+
+.tech-description, .education-description {
+    font-size: 110%;
+    margin: 0.8em;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    color: #727e94;
+    padding-left: 2em;
+}
+
+.tech-description > span, .education-description > span {
+    color: #2c4269;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.education-container, .aboutme-container, .homepage-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.education-container > p {
+    color: #2c4269;
+}
+
+.aboutme-list {
+    list-style-type: none;
+}
+
+.aboutme-list > li {
+    color: #727e94;
+    font-style: italic;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.aboutme-list > li > span {
+    color: #2c4269;
+    padding-left: 10px;
+}
+
+.homepage-description {
+    color: #2c4269;
+    font-size: 120%;
+}
+
